@@ -1,0 +1,2 @@
+INSERT INTO `dede_kwpic` VALUES('139','99','http://www.xinhuanet.com/photo/static/articlel.gif');
+INSERT INTO `dede_kwpic` VALUES('140','99','http://www.xinhuanet.com/photo/static/articler.gif');

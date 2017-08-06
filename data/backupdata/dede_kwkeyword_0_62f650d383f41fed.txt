@@ -1,0 +1,9 @@
+INSERT INTO `dede_kwkeyword` VALUES('1','4','塑胶跑道','0','0','2','1459482951');
+INSERT INTO `dede_kwkeyword` VALUES('2','5','地板','0','0','2','1459482958');
+INSERT INTO `dede_kwkeyword` VALUES('3','6','材料','0','0','2','1459497129');
+INSERT INTO `dede_kwkeyword` VALUES('4','3','草坪','0','0','2','1459497164');
+INSERT INTO `dede_kwkeyword` VALUES('5','9','PU新型球场','0','0','2','1459497173');
+INSERT INTO `dede_kwkeyword` VALUES('6','10','塑胶跑道','0','0','2','1459497207');
+INSERT INTO `dede_kwkeyword` VALUES('8','13','公司动态','0','0','1','1459479591');
+INSERT INTO `dede_kwkeyword` VALUES('9','8','PVC 地板','0','0','1','1459479615');
+INSERT INTO `dede_kwkeyword` VALUES('10','12','塑料制品','0','0','6','1459497328');

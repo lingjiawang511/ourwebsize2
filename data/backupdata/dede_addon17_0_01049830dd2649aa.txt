@@ -1,0 +1,2 @@
+INSERT INTO `dede_addon17` VALUES('9','13','','','0.0.0.0','<span style=\"color: rgb(102, 102, 102); font-family: arial, helvetica, clean, sans-serif; line-height: 28px; word-spacing: -1.5px;\">户外LED显示屏分为户外全彩显示屏和户外单双色显示屏，其特点防风、防震、防雷电、防静电。高强发光亮度，在可视距离内即使阳光直射屏幕表面时,所显示图文、视频仍然清晰可见。</span>');
+INSERT INTO `dede_addon17` VALUES('10','13','','','0.0.0.0','<span style=\"color: rgb(0, 0, 0); font-family: Simsun; line-height: 28px;\">户外LED显示屏分为户外全彩显示屏和户外单双色显示屏，其特点防风、防震、防雷电、防静电。高强发光亮度，在可视距离内即使阳光直射屏幕表面时,所显示图文、视频仍然清晰可见1..</span>');

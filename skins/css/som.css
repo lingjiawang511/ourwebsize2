@@ -1,0 +1,272 @@
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.com-hd-top-t1, .wk-li2 {
+	display: none;
+}
+.com-hd-top-t2, .wk-li3 {
+	width: 235px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 24px;
+	height: 72px;
+	margin-top: 10px;
+}
+ @media only screen and (max-width:1200px) {
+.web-ss, .com-hd, .top, .web-fot, .sp-arrow, .container {
+	display: none;
+}
+/*.web-top{height:57px;background:url(/img/somdh-bg.png) repeat-x top;}*/
+.sondhlio {
+	display: block;
+}
+.web-top {
+	height: 50px;
+	background: #fff;
+}
+.fkgaa {
+	height: 50px;
+}
+.web-logo img {
+	height: 50px;
+	margin-left: 20px;
+}
+.sm-muse {
+	display: block;
+	position: fixed;
+	z-index: 100;
+	font-size: 30px;
+	color: #014099;
+	line-height: 50px;
+	margin-right: 20px;
+	cursor: pointer;
+	right: 0px;
+	top: 0px;
+}
+.web-dh {
+	position: fixed;
+	right: 0px;
+	top: 50px;
+	width: 200px;
+	background: #595758;
+	z-index: 999;
+	height: 100%;
+	display: none;
+}
+.web-dh li {
+	float: none;
+	border: 0px;
+	clear: both;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.web-dh li a {
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	line-height: 50px;
+	float: left;
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	background: none;
+}
+.web-dh li a.current-cat {
+	color: #fff;
+	background: #014099;
+}
+.web-dh li a:hover {
+	border-bottom: none;
+	color: #fff;
+}
+.web-dh li.current-cat a {
+	border-bottom: none;
+	color: #fff;
+}
+.web-dh li.current-cat, .web-dh li:hover {
+	background: #014099;
+}
+.web-dh li.we-dhl a {
+	border: 0px;
+}
+.dh-ico {
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	width: 50px;
+	text-align: center;
+}
+.ipone-cpgd {
+	display: block;
+}
+.itit-1 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+}
+.i-hxjs1 {
+	height: 68px;
+	line-height: 68px;
+	font-size: 20px;
+}
+.i-hxjs2 {
+	font-size: 14px;
+	line-height: 30px;
+	padding-bottom: 27px;
+}
+.hdkaa {
+	height: 245px;
+}
+.hdkaa1 {
+	line-height: 30px;
+}
+.hx-top {
+	width: 95%;
+	padding: 10px 0px;
+}
+.hx-top li {
+	width: 29%;
+	margin: 0px 2%;
+	overflow: hidden;
+}
+.web-icx img, .web-icx2 img, .web-icx3 img, .led-ny-pic img {
+	width: 100%;
+	display: block;
+}
+.web-icx, .web-icx2, .web-icx3, .led-ny-pic {
+	height: auto;
+}
+.web-icxe img, .web-icx2e img, .web-icx3e img, .led-ny-pice img {
+	width: 100%;
+	display: block;
+}
+.web-icxe, .web-icx2e, .web-icx3e, .led-ny-pice {
+	height: auto;
+}
+.cp-ball {
+	width: 94%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.cp-banner {
+	background: url(/img/som-cp-banner-bg.jpg) no-repeat center bottom;
+}
+.pagination1 {
+	display: block;
+}
+.weh-xc {
+	width: 94%;
+}
+.cphdn-all {
+	width: 100%;
+}
+.gdtpica img {
+	width: 80%;
+}
+.gdttita {
+	display: none;
+}
+.weh-xc {
+	width: 100%;
+}
+.ui-opr, .towclass {
+	width: 100%;
+}
+.web-12001 {
+	width: 94%;
+}
+.wbk-doq, .web-1010, .wbk-doa, .wbk-dow {
+	width: 100%;
+}
+.wbk-doq a img {
+	width: 50px;
+}
+a .wbk-dok2 {
+	font-size: 14px;
+}
+.wbk-doq1, .wbk-doq2 {
+	margin: 0px 20px;
+}
+.wbk-dow {
+	padding-top: 15px;
+}
+.wbk-dok2 {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.web-do-lir font {
+	display: none;
+}
+.web-do-lil {
+	font-size: 14px;
+	line-height: 20px;
+	text-indent: 0px;
+	padding: 20px 0px;
+	height: auto;
+}
+.web-do-lir {
+	font-size: 14px;
+	margin: 0px 10px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.web-do-lir span {
+	margin-right: 0px;
+}
+.wen-map {
+	width: 100%;
+}
+.wo-lx {
+	width: 90%;
+	padding: 5%;
+	margin: 0px;
+	margin-top: -5px;
+}
+.wo-lx-l {
+	float: none;
+	width: 94%;
+}
+.wo-lx-l2qq {
+	padding-bottom: 20px;
+	height: 43px;
+}
+.wo-lx-r {
+	float: none;
+	width: 94%;
+	padding: 0px;
+	border: none;
+}
+.lyu input, .lyu textarea {
+	width: 98%;
+}
+.lyu textarea {
+	padding-right: 0px;
+}
+.wbk-dow {
+	margin-top: 0px;
+}
+.containerv {
+	display: block;
+}
+}
+@media only screen and (max-width:768px) {
+}
+@media only screen and (max-width:640px) {
+}
+ @media only screen and (max-width:480px) {
+.wk-li {
+	width: 50%;
+}
+}
+ @media only screen and (max-width:320px) {
+.wk-li {
+	width: 100%;
+}
+}
