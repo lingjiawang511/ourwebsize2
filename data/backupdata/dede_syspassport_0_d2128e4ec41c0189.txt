@@ -1,3 +1,0 @@
-INSERT INTO `dede_syspassport` VALUES('0','cfg_pp_isopen');
-INSERT INTO `dede_syspassport` VALUES('','cfg_pp_loginurl');
-INSERT INTO `dede_syspassport` VALUES('论坛','cfg_pp_name');

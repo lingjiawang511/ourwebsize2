@@ -1,0 +1,5 @@
+INSERT INTO `wp_term_relationships` VALUES('1','1','0');
+INSERT INTO `wp_term_relationships` VALUES('16','1','0');
+INSERT INTO `wp_term_relationships` VALUES('43','3','0');
+INSERT INTO `wp_term_relationships` VALUES('48','3','0');
+INSERT INTO `wp_term_relationships` VALUES('69','3','0');

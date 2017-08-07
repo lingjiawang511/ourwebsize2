@@ -1,0 +1,2 @@
+INSERT INTO `wp_terms` VALUES('1','未分类','uncategorized','0');
+INSERT INTO `wp_terms` VALUES('3','new','new','0');

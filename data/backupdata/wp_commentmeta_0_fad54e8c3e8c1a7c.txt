@@ -1,0 +1,13 @@
+INSERT INTO `wp_commentmeta` VALUES('1','3','akismet_error','1481862521');
+INSERT INTO `wp_commentmeta` VALUES('2','3','akismet_history','a:3:{s:4:\"time\";d:1481862521.7652111053466796875;s:5:\"event\";s:11:\"check-error\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}');
+INSERT INTO `wp_commentmeta` VALUES('4','3','akismet_delayed_moderation_email','1');
+INSERT INTO `wp_commentmeta` VALUES('5','4','akismet_error','1481862792');
+INSERT INTO `wp_commentmeta` VALUES('6','4','akismet_history','a:3:{s:4:\"time\";d:1481862792.3480930328369140625;s:5:\"event\";s:11:\"check-error\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}');
+INSERT INTO `wp_commentmeta` VALUES('8','4','akismet_delayed_moderation_email','1');
+INSERT INTO `wp_commentmeta` VALUES('9','5','akismet_error','1499460819');
+INSERT INTO `wp_commentmeta` VALUES('10','5','akismet_history','a:3:{s:4:\"time\";d:1499460819.9132330417633056640625;s:5:\"event\";s:11:\"check-error\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}');
+INSERT INTO `wp_commentmeta` VALUES('12','5','akismet_delayed_moderation_email','1');
+INSERT INTO `wp_commentmeta` VALUES('13','6','akismet_error','1500407977');
+INSERT INTO `wp_commentmeta` VALUES('14','6','akismet_history','a:3:{s:4:\"time\";d:1500407977.337070941925048828125;s:5:\"event\";s:11:\"check-error\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}');
+INSERT INTO `wp_commentmeta` VALUES('15','6','akismet_as_submitted','a:11:{s:14:\"comment_author\";s:10:\"Johnniegak\";s:20:\"comment_author_email\";s:21:\"robercarlos22@mail.ru\";s:18:\"comment_author_url\";s:24:\"http://www.0daymusic.org\";s:15:\"comment_content\";s:80:\"Downloads WEB Scene Music FLAC/mp3 1990-2017 Private FTP \r\nhttps://0daymusic.org\";s:12:\"comment_type\";s:0:\"\";s:7:\"user_ip\";s:13:\"10.132.98.142\";s:10:\"user_agent\";s:132:\"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 OPR/44.0.2510.857 (Edition Yx)\";s:4:\"blog\";s:20:\"http://yingwunet.com\";s:9:\"blog_lang\";s:5:\"zh_CN\";s:12:\"blog_charset\";s:5:\"UTF-8\";s:9:\"permalink\";s:44:\"http://yingwunet.com/2016/07/15/hello-world/\";}');
+INSERT INTO `wp_commentmeta` VALUES('16','6','akismet_delayed_moderation_email','1');

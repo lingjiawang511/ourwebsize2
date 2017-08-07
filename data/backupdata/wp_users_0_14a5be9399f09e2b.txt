@@ -1,0 +1,1 @@
+INSERT INTO `wp_users` VALUES('1','alice_wanwang','$P$BCdRUz.S6ynZ61mAoI9qrzzUYYCXef/','alice_wanwang','18516691599@163.com','','2016-07-15 14:32:12','','0','alice_wanwang');
