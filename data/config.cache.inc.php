@@ -103,7 +103,7 @@ $cfg_rewrite = 'N';
 $cfg_delete = 'Y';
 $cfg_keywords = '';
 $cfg_description = '';
-$cfg_beian = '粤ICP备 000000 号';
+$cfg_beian = '沪ICP备16022003号-1';
 $cfg_need_typeid2 = 'Y';
 $cfg_cache_type = 'id';
 $cfg_max_face = 50;
@@ -154,5 +154,5 @@ $cfg_memcache_mc_oth = '';
 $cfg_cross_sectypeid = 'N';
 $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
-$cfg_qq = '05000001';
+$cfg_qq = '398677675@qq.com';
 ?>
