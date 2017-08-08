@@ -1,0 +1,1 @@
+<div class="sp-slide"> <img class="sp-image" src="[field:imgsrc/]" /></div>

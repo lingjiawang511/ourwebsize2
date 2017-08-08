@@ -1,5 +1,5 @@
 <?php
-$z[0]=Array("body","	\r\n",0,157);
+$z[0]=Array("body","	\n",0,156);
 $z[0][4]=array();
 $z[0][4]['itemname']="文章内容";
 $z[0][4]['autofield']="0";
@@ -10,7 +10,7 @@ $z[0][4]['islist']="1";
 $z[0][4]['default']="";
 $z[0][4]['maxlength']="";
 $z[0][4]['page']="split";
-$z[1]=Array("downloadr","\r\n",160,321);
+$z[1]=Array("downloadr","\n",158,318);
 $z[1][4]=array();
 $z[1][4]['itemname']="文件下载";
 $z[1][4]['autofield']="1";

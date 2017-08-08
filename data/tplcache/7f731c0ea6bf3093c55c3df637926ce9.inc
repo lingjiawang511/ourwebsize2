@@ -1,0 +1,1 @@
+<img class="sp-thumbnail" src="[field:imgsrc/]" />
