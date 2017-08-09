@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>在线客服分组管理</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+</head>
+<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<table width="98%" border="0" cellpadding="1" cellspacing="1" align="center" class="tbtitle" style="background:#E2F5BC;">
+  <form name="form1" action="online_service_edit.php" method="post">
+    <input type="hidden" name="dopost" value="typesave">
+   <tr>
+    <td height="19" background="images/tbg.gif" colspan="9">
+  <b><a href="online_service_main.php"><u>在线客服管理</u></a></b> &gt;&gt; 在线客服分组管理</td>
+	</tr>
+    <tr bgcolor="#FDFEE9">
+      <td width="4%" height="24" align="center" valign="top">排序</td>
+      <td width="48%" align="center" valign="top">分组名称</td>
+      <td width="24%" align="center">状态</td>
+    </tr>
+    <?php
+	$dsql->SetQuery("Select * From #@__onlinekefu_type ORDER BY sort asc");
+	$dsql->Execute();
+	$k=0;
+	while($row = $dsql->GetObject())
+	{
+      $k++;
+	?>
+    <input type="hidden" name="ID_<?php echo $k?>" value="<?php echo $row->id?>">
+    <tr align="center" bgcolor="#FFFFFF">
+      <td height="24" valign="top">
+      <input name="psort_<?php echo $k?>" type="text" id="psort_<?php echo $k?>"   value="<?php echo $row->sort?>" class='pubinputs' style="width:30px;"/>
+      </td>
+
+      <td height="24" valign="top"><input name="ptypename_<?php echo $k?>" value="<?php echo $row->typename?>" type="text" id="ptypename_<?php echo $k?>" class='pubinputs' style="width:90%" /> </td>
+	  <td>
+	  <input name="check_<?php echo $k?>" type="checkbox" id="check_<?php echo $k?>"  value="1" checked='1' class='np' />
+        保留	   </td>
+    </tr>
+    <?php
+	}
+	?>
+    <input type="hidden" name="idend" value="<?php echo $k?>">
+    <tr bgcolor="#F8FCF1">
+      <td height="24" colspan="4" valign="top" bgcolor="#F9FCEF"><strong>新增一个分组：</strong></td>
+    </tr>
+    <tr height="24" align="center" bgcolor="#FFFFFF">
+      <td colspan="1" valign="top">
+      <input name="psort_new" type="text" id="psort_new" class='pubinputs' value="0" style="width:30px;"/>
+      	      </td>
+			  	  	  <td align="center">
+	  <input name="ptypename_new" type="text" id="ptypename_new" class='pubinputs' style="width:90%" />
+      	   </td>
+
+
+      <td align="center" bgcolor="#FFFFFF">
+	  <input name="check_new" type="checkbox"  id="check_new" value="1" checked='1' class='np' />
+        新增 </td>
+    </tr>
+    <tr>
+      <td height="34" colspan="5" align="center" bgcolor="#F8FCF1">
+      	<input name="imageField"  type="submit" class="np coolbg" value="提 交" />
+      </td>
+    </tr>
+  </form>
+</table>
+</body>
+</html>

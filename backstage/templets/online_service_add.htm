@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>添加在线客服</title>
+<script language='javascript'>
+function CheckSubmit()
+{
+	if(document.form1.kefuname.value=="")
+	{
+   		document.form1.kefuname.focus();
+   		alert("客服名称不能为空！");
+   		return false;
+	}
+	if(document.form1.kefusize.value=="")
+	{
+   		document.form1.kefusize.focus();
+   		alert("客服号码不能为空！");
+   		return false;
+	}
+	return true;
+}
+</script>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr>
+    <td height="28" background="images/tbg.gif" style="padding-left:10px;"><b><a href="online_service_main.php"><u>在线客服管理</u></a></b>&gt;&gt;添加在线客服</td>
+</tr>
+<tr>
+    <td height="200" bgcolor="#FFFFFF" valign="top">
+	<form action="online_service_add.php" method="post" enctype="multipart/form-data" name="form1" onSubmit="return CheckSubmit();";>
+	<input type="hidden" name="dopost" value="add" />
+	<table width="80%"  border="0" cellspacing="1" cellpadding="3">
+	  <tr>
+        <td width="19%" height="25">客服名称：</td>
+        <td width="81%">
+        	<input name="kefuname" type="text" id="kefuname" value="" size="30" class='pubinputs' />
+        </td>
+      </tr>
+      <tr>
+        <td height="25">客服号码：</td>
+        <td>
+        	<input name="kefusize" type="text" id="kefusize" size="30" class='pubinputs' />
+        </td>
+      </tr>
+      <tr>
+        <td width="19%" height="25">客服类别：</td>
+        <td width="81%">
+        	<select name="kefutype" id="kefutype">
+					<option value="1">QQ在线客服</option>
+					<option value="2">阿里旺旺客服</option>
+					<option value="3">电话号码</option>
+			</select>
+        </td>
+      </tr>
+      <tr>
+        <td height="25">客服分组：</td>
+        <td>
+        <select name="typeid" id="typeid">
+        <?php
+        $dsql->SetQuery("select * from #@__onlinekefu_type");
+        $dsql->Execute();
+        while($row=$dsql->GetObject())
+        {
+        	echo "	<option value='".$row->id."'>".$row->typename."</option>\r\n";
+        }
+        ?>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td height="51">&nbsp;</td>
+        <td>
+        	<input type="submit" name="Submit" value=" 提 交 " class="coolbg np" />　 　
+          <input type="reset" name="Submit" value=" 重 置 " class="coolbg np" />
+         </td>
+      </tr>
+    </table>
+	</form>
+ </td>
+</tr>
+</table>
+</body>
+</html>
