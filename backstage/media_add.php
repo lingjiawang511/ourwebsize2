@@ -57,10 +57,11 @@ if($dopost=="upload")
             {
                 continue;
             }
-            $filename = "{$adminid}_".MyDate("His",$uptime).mt_rand(100,999).$i;
-            $fs = explode(".",${"upfile".$i."_name"});
-            $filename = $filename.".".$fs[count($fs)-1];
-            $filename = $savePath."/".$filename;
+              $filename = $upfile_name;//新加代码，想要上传文件不改文件名
+       //     $filename = "{$adminid}_".MyDate("His",$uptime).mt_rand(100,999).$i;
+       //     $fs = explode(".",${"upfile".$i."_name"});
+       //     $filename = $filename.".".$fs[count($fs)-1];
+      //      $filename = $savePath."/".$filename;
             if(!is_dir($cfg_basedir.$savePath))
             {
                 MkdirAll($cfg_basedir.$savePath,777);

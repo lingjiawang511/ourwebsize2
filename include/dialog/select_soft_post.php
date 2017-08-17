@@ -47,6 +47,7 @@ if($activepath==$cfg_soft_dir)
 }
 
 //文件名（前为手工指定， 后者自动处理）
+$newname = $uploadfile_name;//新加代码，想要上传文件不改名
 if(!empty($newname))
 {
     $filename = $newname;
