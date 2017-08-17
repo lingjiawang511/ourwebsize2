@@ -1,7 +1,7 @@
 <?php
 $cfg_disable_funs = 'phpinfo,eval,exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source,file_put_contents';
 $cfg_disable_tags = 'php';
-$cfg_basehost = 'http://www.yingwunet.com';
+$cfg_basehost = 'http://yingwunet.com';
 $cfg_cmspath = '';
 $cfg_cookie_encode = 'srdg7rpeykqEoLM5sMnGGHh7FxeyGft';
 $cfg_indexurl = '/';
@@ -16,7 +16,7 @@ $cfg_ddimg_width = 240;
 $cfg_ddimg_height = 180;
 $cfg_domain_cookie = '';
 $cfg_imgtype = 'jpg|gif|png';
-$cfg_softtype = 'zip|gz|rar|iso|doc|xsl|ppt|wps|jpg|pdf';
+$cfg_softtype = 'zip|gz|rar|iso|doc|xsl|ppt|wps|jpg';
 $cfg_mediatype = 'swf|mpg|mp3|rm|rmvb|wmv|wma|wav|mid|mov';
 $cfg_specnote = 6;
 $cfg_list_symbol = ' > ';
@@ -154,5 +154,5 @@ $cfg_memcache_mc_oth = '';
 $cfg_cross_sectypeid = 'N';
 $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
-$cfg_qq = '398677675@qq.com';
+$cfg_qq = '398677675';
 ?>

@@ -4,3 +4,5 @@ INSERT INTO `dede_sys_module` VALUES('3','72ffa6fabe3c236f9238a2b281bc0f93','广
 INSERT INTO `dede_sys_module` VALUES('4','b437d85a7a7bc778c9c79b5ec36ab9aa','友情链接','','','0','');
 INSERT INTO `dede_sys_module` VALUES('5','acb8b88eb4a6d4bfc375c18534f9439e','投票模块','','','0','');
 INSERT INTO `dede_sys_module` VALUES('6','572606600345b1a4bb8c810bbae434cc','挑错管理','','','0','');
+INSERT INTO `dede_sys_module` VALUES('7','0a7bea5dbe571d35def883cbec796437','留言簿模块','','','0','');
+INSERT INTO `dede_sys_module` VALUES('8','6d4d48dc63ec3f14a1bcf4a18ff2ef96','在线客服插件v1.0.0','','','0','');

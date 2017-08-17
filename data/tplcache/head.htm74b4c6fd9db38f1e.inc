@@ -1,5 +1,5 @@
 <?php
-$z[0]=Array("channel","\r\n          <li><a href='[field:typelink/]'><span class='dh-ico'></span>[field:typename/]</a> </li>\r\n          ",428,720);
+$z[0]=Array("channel","\n          <li><a href='[field:typelink/]'><span class='dh-ico'></span>[field:typename/]</a> </li>\n          ",418,706);
 $z[0][4]=array();
 $z[0][4]['type']="top";
 $z[0][4]['row']="8";

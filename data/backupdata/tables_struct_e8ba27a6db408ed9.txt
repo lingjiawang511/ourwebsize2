@@ -1832,7 +1832,7 @@ CREATE TABLE `dede_guestbook` (
   `msg` text,
   PRIMARY KEY (`id`),
   KEY `ischeck` (`ischeck`)
-) ENGINE=InnoDB DEFAULT CHARSET=gbk ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 DROP TABLE IF EXISTS `dede_homepageset`;
 
@@ -2657,6 +2657,26 @@ CREATE TABLE `dede_nic_star_score` (
   KEY `aid` (`aid`),
   KEY `ip` (`ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+
+DROP TABLE IF EXISTS `dede_onlinekefu`;
+
+CREATE TABLE `dede_onlinekefu` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `kefuname` varchar(50) NOT NULL DEFAULT '',
+  `kefutype` varchar(50) NOT NULL DEFAULT '',
+  `kefusize` varchar(50) NOT NULL DEFAULT '',
+  `typeid` smallint(5) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
+DROP TABLE IF EXISTS `dede_onlinekefu_type`;
+
+CREATE TABLE `dede_onlinekefu_type` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `typename` varchar(50) NOT NULL DEFAULT '',
+  `sort` smallint(5) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 DROP TABLE IF EXISTS `dede_orders`;
 

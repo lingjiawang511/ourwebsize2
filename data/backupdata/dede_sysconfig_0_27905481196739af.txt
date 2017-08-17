@@ -22,8 +22,8 @@ INSERT INTO `dede_sysconfig` VALUES('735','cfg_arc_dirname','是否允许用目�
 INSERT INTO `dede_sysconfig` VALUES('32','cfg_auot_description','自动摘要长度（0-250，0表示不启用）','7','number','240');
 INSERT INTO `dede_sysconfig` VALUES('5','cfg_backup_dir','数据备份目录（在data目录内）','2','string','backupdata');
 INSERT INTO `dede_sysconfig` VALUES('95','cfg_baidunews_limit','百度新闻xml更新新闻数量 最大100','8','string','100');
-INSERT INTO `dede_sysconfig` VALUES('1','cfg_basehost','站点根网址','1','string','');
-INSERT INTO `dede_sysconfig` VALUES('712','cfg_beian','网站备案号','1','string','粤ICP备 000000 号');
+INSERT INTO `dede_sysconfig` VALUES('1','cfg_basehost','站点根网址','1','string','http://yingwunet.com');
+INSERT INTO `dede_sysconfig` VALUES('712','cfg_beian','网站备案号','1','string','沪ICP备16022003号-1');
 INSERT INTO `dede_sysconfig` VALUES('716','cfg_cache_type','id 文档ID，content 标签最终内容<br />(修改此变量后必须更新系统缓存)','6','string','id');
 INSERT INTO `dede_sysconfig` VALUES('89','cfg_caicai_add','被顶扣除文章好评度','5','number','2');
 INSERT INTO `dede_sysconfig` VALUES('88','cfg_caicai_sub','被踩扣除文章好评度','5','number','2');
@@ -117,10 +117,10 @@ INSERT INTO `dede_sysconfig` VALUES('752','cfg_mysql_type','数据库类型（�
 INSERT INTO `dede_sysconfig` VALUES('713','cfg_need_typeid2','是否启用副栏目','6','bool','Y');
 INSERT INTO `dede_sysconfig` VALUES('20','cfg_notallowstr','禁用词语（系统将直接停止用户动作）<br/>用|分开，但不要在结尾加|','5','bstring','非典|艾滋病|阳痿');
 INSERT INTO `dede_sysconfig` VALUES('227','cfg_online_type','在线支付网关类型','2','string','nps');
-INSERT INTO `dede_sysconfig` VALUES('28','cfg_powerby','网站版权信息','1','bstring','Copyright &copy; 2002-2011 DEDE58.COM 织梦模板 版权所有');
+INSERT INTO `dede_sysconfig` VALUES('28','cfg_powerby','网站版权信息','1','bstring','Copyright &copy; 2012-2032 yingwunet.com 智慧仪表团队 版权所有');
 INSERT INTO `dede_sysconfig` VALUES('736','cfg_puccache_time','需缓存内容全局缓存时间(秒)','6','number','36000');
 INSERT INTO `dede_sysconfig` VALUES('739','cfg_qk_uploadlit','异步上传缩略图(空间太不稳定的用户关闭此项)','3','bool','Y');
-INSERT INTO `dede_sysconfig` VALUES('762','cfg_qq','联系QQ','1','string','05000001');
+INSERT INTO `dede_sysconfig` VALUES('762','cfg_qq','联系QQ','1','string','398677675');
 INSERT INTO `dede_sysconfig` VALUES('750','cfg_remote_site','是否启用远程站点','2','bool','N');
 INSERT INTO `dede_sysconfig` VALUES('20','cfg_replacestr','替换词语（词语会被替换成***）<br/>用|分开，但不要在结尾加|','5','bstring','她妈|它妈|他妈|你妈|去死|贱人');
 INSERT INTO `dede_sysconfig` VALUES('744','cfg_replace_num','文档内容同一关键词替换次数(0为全部替换)','7','number','2');
@@ -153,4 +153,4 @@ INSERT INTO `dede_sysconfig` VALUES('745','cfg_uplitpic_cut','上传缩略图后
 INSERT INTO `dede_sysconfig` VALUES('706','cfg_upload_switch','删除文章文件同时删除相关附件文件','2','bool','Y');
 INSERT INTO `dede_sysconfig` VALUES('741','cfg_userad_adds','会员推广获积分','5','number','10');
 INSERT INTO `dede_sysconfig` VALUES('81','cfg_vdcode_member','会员投稿是否使用验证码','5','bool','Y');
-INSERT INTO `dede_sysconfig` VALUES('7','cfg_webname','网站名称','1','string','响应式电子智能开关类企业网站织梦模板(自适应手机)');
+INSERT INTO `dede_sysconfig` VALUES('7','cfg_webname','网站名称','1','string','智慧仪表网');
