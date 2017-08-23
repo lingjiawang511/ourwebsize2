@@ -18,8 +18,14 @@ $z[4][4]['filename']="head.htm";
 $z[5]=Array("global","",2547,2568);
 $z[5][4]=array();
 $z[5][4]['name']="cfg_qq";
-$z[6]=Array("include","",6695,6732);
+$z[6]=Array("loop","\r\n <a href='[field:lianjie/]' target=\"_blank\">[field:shenghuo/]</a>\r\n",4338,4475);
 $z[6][4]=array();
-$z[6][4]['filename']="footer.htm";
+$z[6][4]['table']="dede_diyform1";
+$z[6][4]['sort']="";
+$z[6][4]['row']="10";
+$z[6][4]['if']="";
+$z[7]=Array("include","",6593,6630);
+$z[7][4]=array();
+$z[7][4]['filename']="footer.htm";
 
 ?>

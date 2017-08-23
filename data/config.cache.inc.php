@@ -16,7 +16,7 @@ $cfg_ddimg_width = 240;
 $cfg_ddimg_height = 180;
 $cfg_domain_cookie = '';
 $cfg_imgtype = 'jpg|gif|png';
-$cfg_softtype = 'zip|gz|rar|iso|doc|xsl|ppt|wps|jpg';
+$cfg_softtype = 'zip|gz|rar|iso|doc|xsl|ppt|wps|jpg|pdf';
 $cfg_mediatype = 'swf|mpg|mp3|rm|rmvb|wmv|wma|wav|mid|mov';
 $cfg_specnote = 6;
 $cfg_list_symbol = ' > ';
@@ -154,5 +154,5 @@ $cfg_memcache_mc_oth = '';
 $cfg_cross_sectypeid = 'N';
 $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
-$cfg_qq = '398677675';
+$cfg_qq = '407186254';
 ?>

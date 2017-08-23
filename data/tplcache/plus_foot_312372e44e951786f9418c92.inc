@@ -9,8 +9,8 @@ $fields = array();
 	-->
     <div class="footer_left"></div>
     <div class="footer_body">
-	<p class="powered">    
-		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS<?php echo $GLOBALS['cfg_version']; ?></strong></a> &copy; 2004-2017 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright"><?php echo $GLOBALS['cfg_powerby']; ?>&nbsp;&nbsp;<?php echo $GLOBALS['cfg_beian']; ?></div></p>        
+	<p class="powered">  
+        <?php echo $GLOBALS['cfg_powerby']; ?>&nbsp;&nbsp;<?php echo $GLOBALS['cfg_beian']; ?></div></p>         
 <!-- /powered -->
    </div>
    <div class="footer_right"></div>
