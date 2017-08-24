@@ -1,3 +1,5 @@
 INSERT INTO `dede_addonarticle` VALUES('2','2','','','','127.0.0.1','/uploads/soft/150714/1-150G4202418.jpg');
 INSERT INTO `dede_addonarticle` VALUES('10','2','','','','127.0.0.1','/uploads/soft/150720/1-150H0134348.jpg');
 INSERT INTO `dede_addonarticle` VALUES('11','2','','','','127.0.0.1','/uploads/soft/150720/1-150H0134434.jpg');
+INSERT INTO `dede_addonarticle` VALUES('12','2','','','','180.175.21.57','/uploads/soft/170808/2-1FPR22534.doc');
+INSERT INTO `dede_addonarticle` VALUES('13','2','','','','180.175.21.57','/uploads/soft/170808/2-1FPR31556.pdf');

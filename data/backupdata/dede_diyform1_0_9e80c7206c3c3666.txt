@@ -1,0 +1,2 @@
+INSERT INTO `dede_diyform1` VALUES('24','0','公司','','电话','邮箱','');
+INSERT INTO `dede_diyform1` VALUES('25','0','公司','','电话','邮箱','');

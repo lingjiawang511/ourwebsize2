@@ -9,3 +9,5 @@ INSERT INTO `dede_arctiny` VALUES('8','9','0','0','17','1436931239','1436931173'
 INSERT INTO `dede_arctiny` VALUES('9','6','0','0','17','1436931389','1436931326','1');
 INSERT INTO `dede_arctiny` VALUES('10','2','0','0','1','1437371036','1437370977','1');
 INSERT INTO `dede_arctiny` VALUES('11','2','0','0','1','1437371080','1437371049','1');
+INSERT INTO `dede_arctiny` VALUES('12','2','0','0','1','1503552715','1503553058','2');
+INSERT INTO `dede_arctiny` VALUES('13','2','0','0','1','1503553047','1503552987','2');

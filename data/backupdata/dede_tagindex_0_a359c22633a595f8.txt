@@ -1,0 +1,2 @@
+INSERT INTO `dede_tagindex` VALUES('1','High_meter','2','0','1','0','0','1503552715','1503552715','1503552715');
+INSERT INTO `dede_tagindex` VALUES('2','smg_meter','2','0','1','0','0','1503553047','1503553047','1503553047');

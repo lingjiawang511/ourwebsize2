@@ -1,3 +1,3 @@
 INSERT INTO `dede_admin` VALUES('1','10','ZHteam','db2ad89f464a6ca8edc7','admin','yingwunet.com','398677675@qq.com','','1502949480','180.175.21.57');
-INSERT INTO `dede_admin` VALUES('2','10','ling','f52b10a3f98baa0325bc','yingwunet.com','lingjiawang','398677675@qq.com','','1502956519','180.175.21.57');
+INSERT INTO `dede_admin` VALUES('2','10','ling','f52b10a3f98baa0325bc','yingwunet.com','lingjiawang','398677675@qq.com','','1503552514','180.175.21.57');
 INSERT INTO `dede_admin` VALUES('3','10','jiang','66e4efc2f0727cbc9a70','yingwunet.com','jiangwufeng','','','0','');

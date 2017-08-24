@@ -1,0 +1,2 @@
+INSERT INTO `dede_taglist` VALUES('1','12','0','2','High_meter');
+INSERT INTO `dede_taglist` VALUES('2','13','0','2','smg_meter');
