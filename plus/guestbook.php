@@ -76,6 +76,33 @@ else if($action=='save')
     else {
         ShowMsg('成功发送一则留言，但需审核后才能显示！','guestbook.php',0,3000);
     }
+	//发送EMAIL
+    if($needCheck==1)
+    {
+    require_once(DEDEINC."/oxwindow.class.php");
+    $mailbody = '';
+    $mailtitle = "您的网站上有新留言";
+    $mailbody .= "留言者：$uname \r\n";
+    $mailbody .= "标题：$title \r\n";
+    $mailbody .= "内容：$msg \r\n";
+    $mailbody .= "E-mail：$email \r\n";
+    $mailbody .= "Powered by http://www.yingwunet.com ！";
+    $headers = "From: ".$cfg_adminemail."\r\nReply-To: ".$cfg_adminemail;
+    $email='407186254@qq.com';//改为要接收邮件的邮箱
+	if($cfg_sendmail_bysmtp == 'Y' && !empty($cfg_smtp_server))
+	{        
+		$mailtype = 'TXT';
+		require_once(DEDEINC.'/mail.class.php');
+		$smtp = new smtp($cfg_smtp_server,$cfg_smtp_port,true,$cfg_smtp_usermail,$cfg_smtp_password);
+		$smtp->debug = false;
+		$smtp->sendmail($email,$cfg_webname,$cfg_smtp_usermail,     $mailtitle, $mailbody, $mailtype);
+	}
+	else
+	{
+		@mail($email, $mailtitle, $mailbody, $headers);
+	}
+}
+//发送EMAIL结束
     exit();
 }
 //显示所有留言

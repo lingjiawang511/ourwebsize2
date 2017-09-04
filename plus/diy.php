@@ -84,6 +84,20 @@ if($action == 'post')
 
         $query = "INSERT INTO `{$diy->table}` (`id`, `ifcheck` $addvar)  VALUES (NULL, 0 $addvalue); ";
 
+		//新加程序，实现将客户留言内容发到个人邮箱
+
+		$mailtitle = "用户订单信息";//邮件标题   	
+		$mailbody = "公司：{$ks_dz}\r\n姓名：{$ks_tdmc}\r\n电话：{$ks_dh}\r\n邮箱：{$ks_yx}\r\n留言：{$ks_ly}";//$name中name是该input元素的id号   	
+		$headers = $cfg_adminemail;//用我们刚才设置的管理员邮箱发送   	
+		$mailtype = 'TXT';//邮件类型为文本类型   	
+		require_once(DEDEINC.'/mail.class.php');//加载织梦的邮件库   	
+		$smtp = new smtp($cfg_smtp_server,$cfg_smtp_port,true,$cfg_smtp_usermail,$cfg_smtp_password);//创建smtp服务   	
+		$smtp->debug = false;//不起用调试  
+		//$cfg_smtp_usermail2="407186254@qq.com";
+		$smtp->sendmail($cfg_smtp_usermail,$cfg_webname ,$cfg_smtp_usermail, $mailtitle, $mailbody, $mailtype);//发送邮件 
+		
+		//新加程序，实现将客户留言内容发到个人邮箱 
+
         if($dsql->ExecuteNoneQuery($query))
         {
             $id = $dsql->GetLastID();
