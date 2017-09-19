@@ -1,0 +1,1 @@
+<li class="sd16" id=m02><a href="[field:typelink /]"><img src="/skins/img/cpico-21.png"></a></li>

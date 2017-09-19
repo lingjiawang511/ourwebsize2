@@ -77,6 +77,7 @@ else if($action=='save')
         ShowMsg('成功发送一则留言，但需审核后才能显示！','guestbook.php',0,3000);
     }
 	//发送EMAIL
+	/*
     if($needCheck==1)
     {
     require_once(DEDEINC."/oxwindow.class.php");
@@ -102,7 +103,7 @@ else if($action=='save')
 		@mail($email, $mailtitle, $mailbody, $headers);
 	}
 }
-//发送EMAIL结束
+*/
     exit();
 }
 //显示所有留言
