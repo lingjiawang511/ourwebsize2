@@ -101,7 +101,7 @@ class DedeTagParse
     var $TempMkTime = 0;
     var $CacheFile = '';
     var $SourceString = '';    //模板字符串
-    var $CTags = '';           //标记集合
+    var $CTags = array();           //标记集合
     var $Count = -1;           //$Tags标记个数
     var $refObj = '';          //引用当前模板类的对象
     var $taghashfile = '';

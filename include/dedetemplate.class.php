@@ -192,7 +192,7 @@ class DedeTemplate
     var $cacheDir = '';
     var $templateFile = '';
     var $sourceString = '';
-    var $cTags = '';
+    var $cTags = array();
 
     //var $definedVars = array();
     var $count = -1;
@@ -1343,7 +1343,7 @@ class TagAttributeParse
 {
     var $sourceString = "";
     var $sourceMaxSize = 1024;
-    var $cAttributes = "";
+    var $cAttributes = array();
     var $charToLow = TRUE;
     function SetSource($str="")
     {
